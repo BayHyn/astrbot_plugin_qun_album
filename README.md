@@ -16,7 +16,7 @@ _✨ [astrbot](https://github.com/AstrBotDevs/AstrBot) 群相册插件 ✨_
 
 ## 🤝 介绍
 
-- 本插件利用Napcat（版本>=4.8.101）提供的群相册接口，实现了通过给消息贴表情，而快速把群友的怪话“截图”上传到群相册中。
+- 本插件利用Napcat（版本>=4.8.101）提供的群相册接口，快速把群友的怪话“截图”上传到群相册中。
 
 ## 📦 安装
 
@@ -38,12 +38,9 @@ git clone https://github.com/Zhalslar/astrbot_plugin_qun_album
 
 | 命令 | 功能描述 |
 |------|----------|
-| （给消息贴表情） | 把群友的怪话“截图”上传到群相册中 |
-| (引用图片)上传群相册 | 将图片上传到群相册中 |
+| (引用消息)上传群相册 | 将图片/文字meme上传到群相册中 |
 
 ### 效果图
-
-![tmp1872](https://github.com/user-attachments/assets/39eb983d-7eb0-4df7-a8b7-1f5fb8f7eef0)
 
 ## 📌 注意事项
 
