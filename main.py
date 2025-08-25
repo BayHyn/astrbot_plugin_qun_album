@@ -99,7 +99,6 @@ class AdminPlugin(Star):
             file=str(save_path),
         )
         logger.info("上传群相册成功")
-        yield event.plain_result("上传群相册成功")
         if not self.conf["save_image"]:
             os.remove(save_path)
 
