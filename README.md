@@ -20,6 +20,8 @@ _✨ [astrbot](https://github.com/AstrBotDevs/AstrBot) 群相册插件 ✨_
 
 ## 📦 安装
 
+- 本插件为了方便，依赖meme_generator进行生图，请确保安装了前置插件[astrbot_plugin_memelite](https://github.com/Zhalslar/astrbot_plugin_memelite)或[astrbot_plugin_memelite_rs](https://github.com/Zhalslar/astrbot_plugin_memelite_rs)
+
 - 可以直接在astrbot的插件市场搜索astrbot_plugin_qun_album，点击安装，耐心等待安装完成即可  
 
 - 或者可以直接克隆源码到插件文件夹：
@@ -43,7 +45,6 @@ git clone https://github.com/Zhalslar/astrbot_plugin_qun_album
 ### 效果图
 
 ![download](https://github.com/user-attachments/assets/9a991c7a-7943-41a5-98f0-8e668cebe3fa)
-
 
 ## 📌 注意事项
 
