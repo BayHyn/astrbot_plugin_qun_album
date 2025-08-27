@@ -16,7 +16,7 @@ from .utils import get_first_image
     "astrbot_plugin_qun_album",
     "Zhalslar",
     "群相册插件，记录群友怪话",
-    "1.0.1",
+    "1.0.2",
 )
 class AdminPlugin(Star):
     def __init__(self, context: Context, config: AstrBotConfig):
@@ -67,7 +67,9 @@ class AdminPlugin(Star):
             album_name=album_name,
             file=str(save_path),
         )
+        event.stop_event()
         logger.info("上传群相册成功")
+
         if not self.conf["save_image"]:
             os.remove(save_path)
 
